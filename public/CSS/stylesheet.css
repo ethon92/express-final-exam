@@ -1,0 +1,18 @@
+a {
+  text-decoration: none;
+}
+
+main {
+  width: 500px;
+}
+
+.navigator {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+}
