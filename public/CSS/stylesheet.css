@@ -9,10 +9,23 @@ main {
 .navigator {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .info {
   display: flex;
   justify-content: space-between;
   width: 300px;
+}
+
+.home, .about, .portfolio, .contact {
+  padding: 0.5rem;
+  border-radius: 15px;
+  box-shadow: 1px 1px 1px 1px #a6a6a6;
+  color: #fff;
+  background-color: #3c88fd;
+}
+
+.active {
+  background-color: #4a4a4a;
 }
